@@ -17,16 +17,20 @@
             <a href="#" class="logo">
                 <img src="assets/images/logoprobiz.png" alt="ProBiz Logo" class="nav-logo-img">
             </a>
-            <ul class="nav-links">
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+            <ul class="nav-links" id="navLinks">
                 <li><a href="#" class="active">HOME</a></li>
                 <li><a href="about.html">ABOUT US</a></li>
-                <li><a href="#whatwedo">WHAT WE DO</a></li>
+                <li><a href="services.html">WHAT WE DO</a></li>
                 <li><a href="#impact">OUR IMPACT</a></li>
                 <li><a href="#learning">EXPERIENTIAL LEARNING</a></li>
                 <li><a href="#leaders">THE LEADERS</a></li>
                 <li><a href="#join">JOIN US</a></li>
+                <li class="nav-contact-item mobile-btn"><a href="#contact" class="btn btn-primary nav-btn">CONTACT US</a></li>
             </ul>
-            <a href="#contact" class="btn btn-primary nav-btn">CONTACT US</a>
+            <a href="#contact" class="btn btn-primary nav-btn desktop-btn">CONTACT US</a>
         </div>
     </nav>
 
@@ -326,62 +330,21 @@
 
             <!-- Rajit Profile -->
             <div class="leader-profile">
-                <div class="leader-profile-image">
+                <div class="leader-profile-image framed">
                     <img src="assets/images/standing imge .png" alt="Rajit Karunakaran" class="leader-portrait">
+                    <div class="leader-badge right-badge">★</div>
                 </div>
                 <div class="leader-profile-content">
                     <h3 class="leader-name">Rajit Karunakaran</h3>
-                    <h5 class="leader-title">Founder & CEO, ProBiz Knowledge Center</h5>
-                    <div class="leader-bio">
-                        <h4 class="bio-subheading">Background in Organizational Development and Business Consulting</h4>
-                        <ul class="bio-list">
-                            <li>Founder and CEO of ProBiz Knowledge Center.</li>
-                            <li>TEDx Speaker, management consultant, corporate trainer and mentor with 32+ years of experience.</li>
-                            <li>Specializes in Organizational Development, Business Excellence, Leadership Development, Design Thinking and Strategic Transformation.</li>
-                            <li>Helps organizations improve performance, strengthen leadership capability and build sustainable growth cultures.</li>
-                            <li>Extensive consulting and training experience across India and the MENA region.</li>
-                        </ul>
-
-                        <h4 class="bio-subheading">Key Industries and Geographies Served</h4>
-                        <ul class="bio-list">
-                            <li>Manufacturing</li>
-                            <li>Education</li>
-                            <li>Healthcare</li>
-                            <li>Retail</li>
-                            <li>Professional Services</li>
-                            <li>Technology</li>
-                            <li>Entrepreneurship and Startup Ecosystems</li>
-                            <li>Served clients and institutions across India and the Middle East (MENA region).</li>
-                        </ul>
-
-                        <h4 class="bio-subheading">Signature Accomplishments and Client Outcomes</h4>
-                        <ul class="bio-list">
-                            <li>Regional Mentor of Change, Atal Innovation Mission (AIM), NITI Aayog – Kerala Region.</li>
-                            <li>Featured on the GEMS Mentors List for four consecutive years (2022–2025).</li>
-                            <li>Cyber Ambassador under the Ministry of Electronics and Information Technology (MeitY), Government of India.</li>
-                            <li>Mentor on the G20 Women Mentorship Platform.</li>
-                            <li>Startup Advisor to the Wadhwani Foundation.</li>
-                            <li>Delivered leadership, organizational development and business excellence interventions that improved operational effectiveness, employee engagement, innovation and organizational performance.</li>
-                            <li>Guided institutions and organizations in building leadership capability and cultures of continuous improvement.</li>
-                        </ul>
-
-                        <h4 class="bio-subheading">Leadership Philosophy</h4>
-                        <ul class="bio-list">
-                            <li>Focuses on aligning people, purpose and performance.</li>
-                            <li>Believes sustainable transformation occurs when strategic thinking is combined with practical execution.</li>
-                            <li>Integrates Design Thinking, Mentoring and Storytelling into consulting and learning interventions.</li>
-                            <li>Advocates continuous learning, innovation and collaborative problem-solving.</li>
-                            <li>Committed to creating measurable, sustainable and people-centric organizational change.</li>
-                        </ul>
-
-                        <h4 class="bio-subheading">Educational Credentials and Professional Recognition</h4>
-                        <ul class="bio-list">
-                            <li>Postgraduate Degree Holder.</li>
-                            <li>Certified Level 2 Adobe Creative Educator.</li>
-                            <li>Honorary Fellow, International Association of Accounting Professionals (IAAP), United Kingdom.</li>
-                            <li>Life Member, Indian Society for Training and Development (ISTD).</li>
-                            <li>Life Member, National Institute of Personnel Management (NIPM).</li>
-                            <li>Life Member, Kerala Chamber of Commerce and Industry (KCCI).</li>
+                    <h5 class="leader-title">FOUNDER & CEO, PROBIZ KNOWLEDGE CENTER</h5>
+                    <div class="leader-short-bio">
+                        <p>Rajit is a seasoned organizational development consultant with over 20 years of experience across Asia and the Middle East. He has successfully led large-scale transformation projects for Fortune 500 companies, focusing on leadership alignment and operational excellence.</p>
+                        <p class="small-text">His philosophy centers on empowering human capital to drive sustainable growth. Under his guidance, ProBiz has evolved into a powerhouse for corporate strategy and cultural transformation.</p>
+                        
+                        <ul class="short-bio-list">
+                            <li>20+ Years Cross-Industry Expertise</li>
+                            <li>Global Strategic Advisor</li>
+                            <li>Leadership Transformation Architect</li>
                         </ul>
                     </div>
                 </div>
@@ -389,57 +352,21 @@
 
             <!-- Abhav Profile -->
             <div class="leader-profile reverse-layout">
-                <div class="leader-profile-image">
+                <div class="leader-profile-image framed">
                     <img src="assets/images/abinav.png" alt="Abhav R Nair" class="leader-portrait">
+                    <div class="leader-badge left-badge">⚡</div>
                 </div>
                 <div class="leader-profile-content">
                     <h3 class="leader-name">Abhav R Nair</h3>
-                    <h5 class="leader-title">Chief Operating Officer, ProBiz Knowledge Center</h5>
-                    <div class="leader-bio">
-                        <h4 class="bio-subheading">Background in Organizational Leadership and Academic Diplomacy</h4>
-                        <ul class="bio-list">
-                            <li>Chief Operating Officer of ProBiz Knowledge Center.</li>
-                            <li>Founder and CEO of the International Matrix Foundation (IMF), an international academic simulation and leadership development enterprise.</li>
-                            <li>Extensive experience in organizational leadership, experiential learning, academic diplomacy and conference management.</li>
-                            <li>Leads operational excellence, institutional partnerships and experiential learning initiatives at ProBiz.</li>
-                        </ul>
-
-                        <h4 class="bio-subheading">Key Industries, Sectors and Geographies Served</h4>
-                        <ul class="bio-list">
-                            <li>Higher Education Institutions and Universities.</li>
-                            <li>Schools and Educational Networks.</li>
-                            <li>Leadership Development and Youth Empowerment Programs.</li>
-                            <li>Academic Simulation and Model United Nations Ecosystems.</li>
-                            <li>Entrepreneurship and Innovation Platforms.</li>
-                            <li>Experience working with institutions across India, the GCC region, Europe and Southeast Asia.</li>
-                        </ul>
-
-                        <h4 class="bio-subheading">Signature Accomplishments and Outcomes</h4>
-                        <ul class="bio-list">
-                            <li>Founder of the International Matrix Foundation with international institutional collaborations.</li>
-                            <li>Secretary-General of Rajadhani MUN 2025, Kerala's first internationally integrated Model United Nations conference.</li>
-                            <li>Executive Board participation at 60+ conferences including IIT Bombay, IIT Kharagpur, IIT Roorkee, IIT Indore, IIIT Guwahati, NIT Rourkela, NIT Agartala, NMIMS and KIIT.</li>
-                            <li>Appointed Ambassador for India by International Diplomats UAE.</li>
-                            <li>Designed and facilitated experiential learning programs that enhance leadership, communication, negotiation and critical thinking skills among students and young professionals.</li>
-                        </ul>
-
-                        <h4 class="bio-subheading">Leadership Philosophy</h4>
-                        <ul class="bio-list">
-                            <li>Believes experiential learning is the most effective pathway to developing future leaders.</li>
-                            <li>Focuses on empowering individuals through global exposure, collaboration and practical learning experiences.</li>
-                            <li>Advocates leadership built on diplomacy, innovation, critical thinking and ethical decision-making.</li>
-                            <li>Committed to creating platforms that bridge academic learning with real-world problem solving.</li>
-                        </ul>
-
-                        <h4 class="bio-subheading">Educational Credentials and Certifications</h4>
-                        <ul class="bio-list">
-                            <li>Pursuing B.Tech in Electrical and Computer Engineering, Mar Baselios College of Engineering and Technology (MBCET), Thiruvananthapuram.</li>
-                            <li>UN Diploma in International Environmental Law and Governance.</li>
-                            <li>UN Diploma in International Legal Framework on Biological Diversity.</li>
-                            <li>Google Certified Project Manager.</li>
-                            <li>Certifications from UNESCO MGIEP, World Health Organization (WHO), Office of the UN High Commissioner for Human Rights (OHCHR), and the United Nations Office for Disarmament Affairs.</li>
-                            <li>Professional simulation certifications from Siemens Mobility, Deloitte, Mastercard and JPMorgan Chase.</li>
-                            <li>Cyber Ambassador under the Ministry of Electronics and Information Technology (MeitY), Government of India.</li>
+                    <h5 class="leader-title">CHIEF OPERATING OFFICER, PROBIZ KNOWLEDGE CENTER</h5>
+                    <div class="leader-short-bio">
+                        <p>Abhav brings a wealth of operational expertise to ProBiz, specializing in scaling business engagements and managing complex delivery frameworks. With a background in business excellence and strategic operations, he ensures that ProBiz's internal systems are as robust and efficient as the solutions provided to clients.</p>
+                        <p class="small-text">His focus on operational integrity allows the consulting teams to deliver unparalleled value without friction, maintaining the high standards ProBiz is known for.</p>
+                        
+                        <ul class="short-bio-list">
+                            <li>Operational Strategy Specialist</li>
+                            <li>Complex Delivery Frameworks</li>
+                            <li>Business Excellence Certified</li>
                         </ul>
                     </div>
                 </div>
@@ -504,9 +431,9 @@
                     <ul class="footer-links">
                         <li><a href="#">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="#">What We Do</a></li>
-                        <li><a href="#">Experiential Learning</a></li>
-                        <li><a href="#">The Leaders</a></li>
+                        <li><a href="services.html">What We Do</a></li>
+                        <li><a href="#learning">Experiential Learning</a></li>
+                        <li><a href="#leaders">The Leaders</a></li>
                         <li><a href="#">Join Us</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">White Papers</a></li>

@@ -10,18 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Outfit:ital,wght@0,400;0,500;0,700;0,800;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-        body { padding-top: 100px; }
-        .navbar { background-color: rgba(255, 255, 255, 0.98) !important; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important; border-bottom: 1px solid rgba(0,0,0,0.05) !important; padding: 0.5rem 0 !important; }
-        .navbar .nav-links a { color: var(--color-black) !important; }
-        .navbar .nav-links a.active { color: var(--color-orange) !important; }
-    </style>
+
 </head>
 <body>
-    <nav class="navbar scrolled">
+    <nav class="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">
-                <img src="assets/images/logoprobiz.png" alt="ProBiz Knowledge Center" class="logo-img" id="navLogo">
+                <img src="assets/images/logoprobiz.png" alt="ProBiz Knowledge Center" class="nav-logo-img" id="navLogo">
             </a>
             
             <button class="mobile-toggle" id="mobileToggle">
@@ -34,16 +29,20 @@
                 <li><a href="services.html" class="active">Services</a></li>
                 <li><a href="index.html#learning">Experiential Learning</a></li>
                 <li><a href="index.html#leaders">The Leaders</a></li>
-                <li><a href="#contact" class="btn btn-primary nav-btn">Contact Us</a></li>
+                <li class="nav-contact-item mobile-btn"><a href="#contact" class="btn btn-primary nav-btn">Contact Us</a></li>
             </ul>
+            <a href="#contact" class="btn btn-primary nav-btn desktop-btn">Contact Us</a>
         </div>
     </nav>
 
-    <div class="services-page-header container" style="padding: 6rem 0 3rem;">
-        <h4 class="section-eyebrow">OUR SERVICES</h4>
-        <h1 class="section-heading" style="font-size: 3.5rem; max-width: 800px;">Practical Solutions for Lasting Impact</h1>
-        <p class="services-intro" style="font-size: 1.1rem; max-width: 600px; color: #555; margin-top: 1.5rem;">We work across three core practice areas, each designed to create measurable value for your organization and the people within it.</p>
-    </div>
+    <header class="services-page-header" style="position: relative; background-image: url('assets/images/services banner.png'); background-size: cover; background-position: center; padding: 12rem 0 6rem; color: white;">
+        <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(17, 17, 17, 0.7); z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <h4 class="section-eyebrow" style="color: var(--color-orange);">OUR SERVICES</h4>
+            <h1 class="section-heading" style="font-size: 4rem; max-width: 800px; color: white; margin-bottom: 1.5rem;">Practical Solutions for Lasting Impact</h1>
+            <p class="services-intro" style="font-size: 1.2rem; max-width: 600px; color: rgba(255,255,255,0.9);">We work across three core practice areas, each designed to create measurable value for your organization and the people within it.</p>
+        </div>
+    </header>
 
     <!-- 5.1 Organizational Development -->
     <section class="service-detail-section">
