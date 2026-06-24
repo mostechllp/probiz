@@ -25,21 +25,17 @@ body {
     overflow-x: hidden;
 }
 
-p {
+/* Opt-in justification for long paragraph sections only */
+.about-text p,
+.mission-text p,
+.service-detail-content p,
+.philosophy-section p,
+.learning-overview p,
+.module-content p,
+.leader-profile-content p,
+.about-history p,
+.about-vision p {
     text-align: justify;
-}
-
-/* Override justification for short sentences in cards and specific UI elements */
-.service-card p,
-.industry-card p,
-.leader-card p,
-.hero-stats-card p,
-.stat-box p,
-.process-step p,
-.contact-info-box p,
-.hero-subheadline,
-.services-intro {
-    text-align: left;
 }
 
 /* Container */
