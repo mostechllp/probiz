@@ -29,6 +29,19 @@ p {
     text-align: justify;
 }
 
+/* Override justification for short sentences in cards and specific UI elements */
+.service-card p,
+.industry-card p,
+.leader-card p,
+.hero-stats-card p,
+.stat-box p,
+.process-step p,
+.contact-info-box p,
+.hero-subheadline,
+.services-intro {
+    text-align: left;
+}
+
 /* Container */
 .container {
     width: 100%;
