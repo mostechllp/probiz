@@ -1,0 +1,321 @@
+import React from 'react';
+
+const Contact = () => {
+    return (
+        <>
+            
+    
+
+    <section className="contact-header">
+        <div className="container">
+            <div className="contact-header-grid">
+                <div className="contact-header-text">
+                    <h4>CONTACT</h4>
+                    <h1>Let's Talk</h1>
+                    <p>
+                        Whether you are facing an organizational challenge, looking to improve business performance or want to bring experiential learning to your institution, ProBiz is ready to partner with you. Reach out and let us start a conversation.
+                    </p>
+                </div>
+                <div>
+                    <img src="assets/images/bw_corporate_building.png" alt="Corporate Office Building" style={{ width: "100%", height: "auto", objectFit: "cover", border: "1px solid #eee", boxShadow: "0 10px 30px rgba(0,0,0,0.1)" }} />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div className="container">
+            <div className="contact-main-grid">
+                <div className="contact-form-wrapper">
+                    <form action="#" method="POST">
+                        <div className="form-row">
+                            <div className="form-group">
+                                <label htmlFor="fullName">Full Name</label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="orgName">Organization Name</label>
+                                <input type="text" id="orgName" name="orgName" placeholder="Enter your organization name" />
+                            </div>
+                        </div>
+
+                        <div className="form-row">
+                            <div className="form-group">
+                                <label htmlFor="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
+                            </div>
+                        </div>
+
+                        <div className="form-group">
+                            <label htmlFor="helpTopic">How can we help you?</label>
+                            <select id="helpTopic" name="helpTopic">
+                                <option value="Organizational Development">Organizational Development</option>
+                                <option value="Business Excellence">Business Excellence</option>
+                                <option value="Experiential Learning">Experiential Learning</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div className="form-group">
+                            <label htmlFor="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project or inquiry..." required></textarea>
+                        </div>
+
+                        <button type="submit" className="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <div className="contact-info-boxes">
+                    <div className="contact-info-box">
+                        <div className="contact-info-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <div className="contact-info-text">
+                            <h5>EMAIL US</h5>
+                            <p><a href="mailto:info@probizindia.in" style={{ color: "inherit", textDecoration: "none" }}>info@probizindia.in</a></p>
+                        </div>
+                    </div>
+
+                    <div className="contact-info-box">
+                        <div className="contact-info-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <div className="contact-info-text">
+                            <h5>CALL US</h5>
+                            <p><a href="tel:+914717961112" style={{ color: "inherit", textDecoration: "none" }}>+91 4717961112</a></p>
+                        </div>
+                    </div>
+
+                    <div className="contact-info-box">
+                        <div className="contact-info-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div className="contact-info-text">
+                            <h5>OUR LOCATION</h5>
+                            <p>Trivandrum, Kerala, India</p>
+                        </div>
+                    </div>
+
+                    <div className="map-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126279.7944111244!2d76.84061266070624!3d8.500037899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbb805bbcd47%3A0x15439fab5c5c81cb!2sThiruvananthapuram%2C%20Kerala!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="250" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+
+<style dangerouslySetInnerHTML={{ __html: `
+        body { padding-top: 100px; background-color: #fcfcfc; color: #111; }
+        
+        /* Transparent navbar at top with black text and logo */
+        .navbar:not(.scrolled) { background-color: transparent !important; box-shadow: none !important; border-bottom: none !important; }
+        .navbar:not(.scrolled) .nav-links a { color: var(--color-black) !important; }
+        .navbar:not(.scrolled) .nav-links a.active { color: var(--color-orange) !important; }
+        .navbar:not(.scrolled) .nav-logo-img { filter: none !important; height: 60px !important; }
+        .navbar:not(.scrolled) .mobile-toggle svg { stroke: var(--color-black) !important; }
+
+        .contact-header {
+            padding: 5rem 0 4rem;
+        }
+        
+        .contact-header-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+
+        .contact-header-text h4 {
+            background-color: var(--color-orange);
+            color: #fff;
+            display: inline-block;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-header-text h1 {
+            font-family: var(--font-heading);
+            font-size: 4rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            color: #000;
+        }
+
+        .contact-header-text p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #555;
+            margin-bottom: 0;
+        }
+
+        .contact-main-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 3rem;
+            padding-bottom: 6rem;
+        }
+
+        .contact-form-wrapper {
+            background-color: var(--color-orange);
+            padding: 3rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            border-radius: 4px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.6rem;
+        }
+
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            background-color: #fff;
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            color: #333;
+            border-radius: 2px;
+            transition: box-shadow 0.3s;
+        }
+
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0,0,0,0.2);
+        }
+
+        .form-group textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background-color: #111;
+            color: #fff;
+            border: none;
+            padding: 1rem 2.5rem;
+            font-size: 0.9rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            border-radius: 2px;
+            transition: background-color 0.3s;
+        }
+
+        .submit-btn:hover {
+            background-color: #000;
+        }
+
+        .contact-info-boxes {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .contact-info-box {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            background-color: #fff;
+            padding: 1.5rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.03);
+            border: 1px solid #f0f0f0;
+        }
+
+        .contact-info-icon {
+            background-color: #111;
+            color: var(--color-orange);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .contact-info-text h5 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: #888;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.3rem;
+            font-weight: 600;
+        }
+
+        .contact-info-text p {
+            font-size: 1.1rem;
+            color: #111;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .map-wrapper {
+            margin-top: 1.5rem;
+            border: 1px solid #f0f0f0;
+            background-color: #fff;
+            padding: 0.5rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.03);
+        }
+
+        @media (max-width: 992px) {
+            .contact-header-grid, .contact-main-grid {
+                grid-template-columns: 1fr;
+            }
+            .contact-header-grid img {
+                width: 100%;
+            }
+        }
+        @media (max-width: 768px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            .contact-form-wrapper {
+                padding: 1.5rem;
+            }
+            .contact-header {
+                padding: 2rem 0;
+            }
+            .contact-header-grid {
+                gap: 2rem;
+            }
+            .contact-main-grid {
+                gap: 2rem;
+                padding-bottom: 3rem;
+            }
+        }
+    ` }} />
+        </>
+    );
+};
+
+export default Contact;
