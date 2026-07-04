@@ -86,7 +86,7 @@ const Learning = () => {
             <h2 style={{ fontFamily: "var(--font-heading)", fontSize: "2.5rem", fontWeight: "800", marginBottom: "1rem" }}>The Gap That Traditional Education Cannot Fill</h2>
             <p style={{ color: "#666", fontSize: "1.1rem", maxWidth: "800px", margin: "0 auto" }}>Research consistently shows that active participation leads to significantly higher knowledge retention compared to passive learning.</p>
             
-            <div className="gap-grid" style={{ display: 'flex', gap: '2rem', justifyContent: 'center' }}>
+            <div className="gap-grid" style={{ display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                 <DecayCard width={450} height={350} image="assets/images/r1.jpeg">
                     <h3 style={{ color: "var(--color-orange)", fontSize: "3rem", marginBottom: "0.5rem", fontWeight: "800" }}>75% <span style={{ fontSize: "1.2rem", color: "#fff", fontWeight: "bold" }}>Retention</span></h3>
                     <h4 style={{ fontSize: "1.5rem", marginBottom: "1rem", fontWeight: "700" }}>Active Debating & Roleplay</h4>
