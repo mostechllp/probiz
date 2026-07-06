@@ -1,8 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BorderGlow from '../components/BorderGlow';
 import DecayCard from '../components/DecayCard';
 
+const FAQItem = ({ question, answer }) => {
+    const [isOpen, setIsOpen] = useState(false);
+    return (
+        <div className="faq-item">
+            <div className="faq-question" onClick={() => setIsOpen(!isOpen)} style={{ cursor: 'pointer' }}>
+                {question}
+                <span style={{ fontSize: "1.5rem", color: "#888", fontWeight: "300", transform: isOpen ? 'rotate(45deg)' : 'none', display: 'inline-block', transition: 'transform 0.3s ease' }}>+</span>
+            </div>
+            <div className="faq-answer" style={{ display: isOpen ? 'block' : 'none' }}>
+                {answer}
+            </div>
+        </div>
+    );
+};
+
 const Learning = () => {
+    const [isGuideModalOpen, setIsGuideModalOpen] = useState(false);
+    const [guideForm, setGuideForm] = useState({ name: '', email: '' });
+
+    const handleGuideSubmit = (e) => {
+        e.preventDefault();
+        // Trigger download
+        const link = document.createElement('a');
+        link.href = '/Model_UN_Strategic_Playbook.pdf';
+        link.download = 'Model_UN_Strategic_Playbook.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        setIsGuideModalOpen(false);
+        setGuideForm({ name: '', email: '' });
+    };
+
     return (
         <>
             
@@ -237,7 +268,7 @@ const Learning = () => {
                 
                 <div style={{ display: "flex", gap: "1rem" }}>
                     <a href="/contact" style={{ backgroundColor: "var(--color-orange)", color: "#fff", textDecoration: "none", fontWeight: "800", fontSize: "0.9rem", padding: "1rem 2rem", borderRadius: "4px", textTransform: "uppercase", letterSpacing: "0.5px" }}>START YOUR JOURNEY</a>
-                    <a href="#" style={{ backgroundColor: "transparent", border: "1px solid #111", color: "#111", textDecoration: "none", fontWeight: "800", fontSize: "0.9rem", padding: "1rem 2rem", borderRadius: "4px", textTransform: "uppercase", letterSpacing: "0.5px" }}>DOWNLOAD GUIDE</a>
+                    <a href="#" onClick={(e) => { e.preventDefault(); setIsGuideModalOpen(true); }} style={{ backgroundColor: "transparent", border: "1px solid #111", color: "#111", textDecoration: "none", fontWeight: "800", fontSize: "0.9rem", padding: "1rem 2rem", borderRadius: "4px", textTransform: "uppercase", letterSpacing: "0.5px", cursor: "pointer" }}>DOWNLOAD GUIDE</a>
                 </div>
             </div>
             
@@ -943,58 +974,31 @@ const Learning = () => {
             <h2 style={{ fontFamily: "var(--font-heading)", fontSize: "2.5rem", fontWeight: "800", marginBottom: "3rem" }}>Frequently Asked Questions</h2>
             
             <div className="faq-section text-left">
-                <div className="faq-item">
-                    <div className="faq-question">
-                        What age groups are these programs for?
-                        <span style={{ fontSize: "1.5rem", color: "#888", fontWeight: "300" }}>+</span>
-                    </div>
-                    <div className="faq-answer">
-                        Our simulations are tailored for middle school, high school, and university level students. Difficulty and depth are specifically matched to student capabilities for maximum impact.
-                    </div>
-                </div>
-                <div className="faq-item">
-                    <div className="faq-question">
-                        Do you provide training for teachers?
-                        <span style={{ fontSize: "1.5rem", color: "#888", fontWeight: "300" }}>+</span>
-                    </div>
-                    <div className="faq-answer">
-                        Yes, we offer comprehensive capacity-building workshops for educators to seamlessly integrate these methodologies into their regular curriculum.
-                    </div>
-                </div>
-                <div className="faq-item">
-                    <div className="faq-question">
-                        Is it possible to customize the MUN topics?
-                        <span style={{ fontSize: "1.5rem", color: "#888", fontWeight: "300" }}>+</span>
-                    </div>
-                    <div className="faq-answer">
-                        Absolutely. We co-design committees and agendas based on your institution's specific focus areas, whether it's climate change, technology, or regional geopolitics.
-                    </div>
-                </div>
-                <div className="faq-item">
-                    <div className="faq-question">
-                        How long do these simulations typically last?
-                        <span style={{ fontSize: "1.5rem", color: "#888", fontWeight: "300" }}>+</span>
-                    </div>
-                    <div className="faq-answer">
-                        Programs range from single-day immersive workshops to multi-day flagship conferences, depending entirely on your requirements.
-                    </div>
-                </div>
-                <div className="faq-item">
-                    <div className="faq-question">
-                        Does ProBiz provide certificates?
-                        <span style={{ fontSize: "1.5rem", color: "#888", fontWeight: "300" }}>+</span>
-                    </div>
-                    <div className="faq-answer">
-                        Yes, all participants receive official certification recognizing their participation and specific skill development in diplomacy, leadership, or debate.
-                    </div>
-                </div>
+                <FAQItem 
+                    question="Is MUN only for senior students?" 
+                    answer="Not at all. ProBiz designs age-appropriate MUN programs for students from Class 7 onward. Junior MUN formats use simplified procedures and age-relevant topics to ensure younger participants can engage meaningfully and build confidence before progressing to more complex senior formats." 
+                />
+                <FAQItem 
+                    question="We have never hosted a MUN before. Can you still help us?" 
+                    answer="Yes. Our most common engagement is with institutions that are setting up their first conference. We handle the heavy lifting and coach your team through every stage so that by the end of the first event, your institution has the confidence and the systems to run future editions with increasing independence." 
+                />
+                <FAQItem 
+                    question="How much time does setting up a MUN society require from our faculty?" 
+                    answer="Our model is designed to minimize the faculty workload. We work primarily with a faculty coordinator and your student leadership team. The time commitment for faculty is typically limited to a few meetings and the conference day itself. We manage the rest." 
+                />
+                <FAQItem 
+                    question="Can you provide debate training without running a full competition?" 
+                    answer="Yes. Many institutions begin with a skills workshop or an internal training program before committing to a formal competition. We are happy to design a standalone workshop that introduces your students to debate and builds foundational skills at their own pace." 
+                />
+                <FAQItem 
+                    question="Do you work with institutions outside Trivandrum?" 
+                    answer="Yes. ProBiz Knowledge Center works with schools and colleges across India and beyond. We are also able to support institutions in other states for specific programs by prior arrangement. Contact us to discuss your location and requirements." 
+                />
             </div>
         </div>
     </section>
 
-    
 
-    
     
 
 <style dangerouslySetInnerHTML={{ __html: `
@@ -1396,6 +1400,29 @@ const Learning = () => {
             .timeline-number { display: none !important; }
         }
     ` }} />
+            {isGuideModalOpen && (
+                <div style={{
+                    position: "fixed", top: 0, left: 0, right: 0, bottom: 0,
+                    backgroundColor: "rgba(0,0,0,0.5)", zIndex: 9999,
+                    display: "flex", justifyContent: "center", alignItems: "center"
+                }}>
+                    <div style={{ backgroundColor: "#fff", padding: "2rem", borderRadius: "8px", maxWidth: "400px", width: "90%", position: "relative" }}>
+                        <button onClick={() => setIsGuideModalOpen(false)} style={{ position: "absolute", top: "10px", right: "15px", background: "none", border: "none", fontSize: "1.5rem", cursor: "pointer", color: "#333" }}>&times;</button>
+                        <h3 style={{ marginBottom: "1.5rem", fontFamily: "var(--font-heading)", color: "#111", fontSize: "1.5rem" }}>Download Guide</h3>
+                        <style>{`
+                            .guide-modal-input::placeholder {
+                                color: #000;
+                                opacity: 1;
+                            }
+                        `}</style>
+                        <form onSubmit={handleGuideSubmit} style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                            <input type="text" className="guide-modal-input" placeholder="Your Name" required value={guideForm.name} onChange={(e) => setGuideForm({...guideForm, name: e.target.value})} style={{ padding: "0.8rem", border: "1px solid #ddd", borderRadius: "4px", backgroundColor: "#fff", color: "#000" }} />
+                            <input type="email" className="guide-modal-input" placeholder="Your Email" required value={guideForm.email} onChange={(e) => setGuideForm({...guideForm, email: e.target.value})} style={{ padding: "0.8rem", border: "1px solid #ddd", borderRadius: "4px", backgroundColor: "#fff", color: "#000" }} />
+                            <button type="submit" style={{ backgroundColor: "var(--color-orange)", color: "#fff", padding: "1rem", border: "none", borderRadius: "4px", fontWeight: "700", cursor: "pointer" }}>Submit & Download</button>
+                        </form>
+                    </div>
+                </div>
+            )}
         </>
     );
 };
