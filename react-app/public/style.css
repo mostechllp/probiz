@@ -17,12 +17,15 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: var(--font-body);
     color: var(--color-black);
     background-color: var(--color-white);
     line-height: 1.6;
-    overflow-x: hidden;
 }
 
 /* Opt-in justification for long paragraph sections only */
@@ -1723,6 +1726,9 @@ body {
 @media (max-width: 480px) {
     .hero-headline {
         font-size: 2.2rem;
+    }
+    .mobile-shift-left {
+        margin-left: -0.5rem;
     }
     .card-bg-number {
         font-size: 4rem;

@@ -158,7 +158,7 @@ const Services = () => {
                         global awareness in students.</p>
 
                     <div style={{ marginTop: "2rem" }}>
-                        <a href="learning.html" className="btn-text">Visit our dedicated Experiential Learning page <svg
+                        <a href="/learning" className="btn-text">Visit our dedicated Experiential Learning page <svg
                                 width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <line x1="5" y1="12" x2="19" y2="12"></line>

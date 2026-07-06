@@ -70,7 +70,7 @@ const About = () => {
                     <p style={{ color: "#ccc", fontSize: "0.95rem", lineHeight: "1.6", marginBottom: "1.5rem" }}>
                         A visionary leader with extensive experience in organizational development and lateral thinking. Rajit specializes in transforming complex business challenges into streamlined, sustainable growth strategies across the Indian and GCC markets.
                     </p>
-                    <a href="leaders.html#rajit" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: "40px", height: "40px", border: "1px solid #444", color: "#fff", textDecoration: "none", transition: "border-color 0.3s" }} onmouseover="this.style.borderColor='var(--color-orange)'" onmouseout="this.style.borderColor='#444'">
+                    <a href="/leaders#rajit" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: "40px", height: "40px", border: "1px solid #444", color: "#fff", textDecoration: "none", transition: "border-color 0.3s" }} onmouseover="this.style.borderColor='var(--color-orange)'" onmouseout="this.style.borderColor='#444'">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
                     </a>
                 </div>
@@ -85,7 +85,7 @@ const About = () => {
                     <p style={{ color: "#ccc", fontSize: "0.95rem", lineHeight: "1.6", marginBottom: "1.5rem" }}>
                         An operations strategist focused on business excellence and experiential learning. Abhav ensures that ProBiz's co-designed solutions are executed with precision, helping clients build agile systems that scale effectively.
                     </p>
-                    <a href="leaders.html#abhav" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: "40px", height: "40px", border: "1px solid #444", color: "#fff", textDecoration: "none", transition: "border-color 0.3s" }} onmouseover="this.style.borderColor='var(--color-orange)'" onmouseout="this.style.borderColor='#444'">
+                    <a href="/leaders#abhav" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: "40px", height: "40px", border: "1px solid #444", color: "#fff", textDecoration: "none", transition: "border-color 0.3s" }} onmouseover="this.style.borderColor='var(--color-orange)'" onmouseout="this.style.borderColor='#444'">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
                     </a>
                 </div>
@@ -114,7 +114,7 @@ const About = () => {
             <p style={{ color: "#666", fontSize: "1.15rem", lineHeight: "1.6", marginBottom: "3rem" }}>
                 We don't just advise; we integrate. Let's work together to make your<br />organization stronger and more agile.
             </p>
-            <a href="contact.html" style={{ display: "inline-block", backgroundColor: "#1a1a1a", color: "#fff", textDecoration: "none", fontSize: "0.85rem", fontWeight: "800", textTransform: "uppercase", letterSpacing: "1px", padding: "1.2rem 2.5rem", border: "2px solid #1a1a1a", transition: "all 0.3s ease" }} onmouseover="this.style.backgroundColor='transparent'; this.style.color='#1a1a1a';" onmouseout="this.style.backgroundColor='#1a1a1a'; this.style.color='#fff';">
+            <a href="/contact" style={{ display: "inline-block", backgroundColor: "#1a1a1a", color: "#fff", textDecoration: "none", fontSize: "0.85rem", fontWeight: "800", textTransform: "uppercase", letterSpacing: "1px", padding: "1.2rem 2.5rem", border: "2px solid #1a1a1a", transition: "all 0.3s ease" }} onmouseover="this.style.backgroundColor='transparent'; this.style.color='#1a1a1a';" onmouseout="this.style.backgroundColor='#1a1a1a'; this.style.color='#fff';">
                 CONTACT US
             </a>
         </div>

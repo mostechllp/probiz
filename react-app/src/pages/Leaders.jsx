@@ -296,7 +296,7 @@ const Leaders = () => {
 
                 <div className="cta-box">
                     <p style={{ fontSize: "1.1rem", color: "#333", marginBottom: "2rem" }}>Ready to elevate your strategy?</p>
-                    <a href="join.html" className="btn btn-primary" style={{ padding: "1rem 2rem", width: "100%", display: "flex", justifyContent: "center", alignItems: "center", gap: "0.5rem", fontWeight: "700" }}>
+                    <a href="/join" className="btn btn-primary" style={{ padding: "1rem 2rem", width: "100%", display: "flex", justifyContent: "center", alignItems: "center", gap: "0.5rem", fontWeight: "700" }}>
                         WORK WITH US <span>&rarr;</span>
                     </a>
                 </div>
@@ -469,7 +469,7 @@ const Leaders = () => {
             text-align: center;
             position: absolute;
             right: 5%;
-            top: 0;
+            top: 50%;
             transform: translateY(-50%);
             width: 400px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);

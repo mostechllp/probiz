@@ -17,7 +17,7 @@ const serviceCards = [
     description: 'Aligning people, processes, and leadership to create resilient, high-performing organizations that drive sustainable growth and long-term success.',
     label: '01',
     icon: svg1,
-    link: { text: 'Get Started \u2192', url: 'services.html' }
+    link: { text: 'Get Started \u2192', url: '/services' }
   },
   {
     color: '#120F17',
@@ -26,7 +26,7 @@ const serviceCards = [
     description: 'Driving continuous improvement through strategic alignment, operational excellence, and performance-focused frameworks that enable sustainable growth and lasting business success.',
     label: '02',
     icon: svg2,
-    link: { text: 'Learn More \u2192', url: 'services.html' }
+    link: { text: 'Learn More \u2192', url: '/services' }
   },
   {
     color: '#120F17',
@@ -35,14 +35,14 @@ const serviceCards = [
     description: 'Transformative training programs that prioritize hands-on experience and behavioral change over theory.',
     label: '03',
     icon: svg3,
-    link: { text: 'Our Approach \u2192', url: 'learning.html' }
+    link: { text: 'Our Approach \u2192', url: '/learning' }
   },
   {
     color: 'var(--color-orange)',
     customClass: 'card-wide-right orange-card',
     title: 'Ready for a custom strategy?',
     description: 'Our experts are available for a 30-minute consultation to map out your organization\'s unique challenges.',
-    link: { text: 'CONTACT US', url: 'contact.html' }
+    link: { text: 'CONTACT US', url: '/contact' }
   }
 ];
 
@@ -59,7 +59,7 @@ const Index = () => {
         <div className="container hero-container">
             <div className="hero-content">
                 <h1 className="hero-headline" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-                    <span className="desktop-nowrap" style={{ display: 'inline-flex', whiteSpace: 'nowrap' }}>
+                    <span className="desktop-nowrap mobile-shift-left" style={{ display: 'inline-flex', whiteSpace: 'nowrap' }}>
                         <SplitText tag="span" text="Transforming Businesses." delay={30} textAlign="left" />
                     </span>
                     <span style={{ display: 'inline-flex', whiteSpace: 'nowrap' }}>
@@ -74,8 +74,8 @@ const Index = () => {
                     Bridging global strategy and local agility. As your boutique consultancy partner, we drive sustainable growth through people-centric excellence.
                 </p>
                 <div className="hero-buttons">
-                    <a href="contact.html" className="btn btn-primary">CONTACT US</a>
-                    <a href="services.html" className="btn btn-secondary">EXPLORE WHAT WE DO</a>
+                    <a href="/contact" className="btn btn-primary">CONTACT US</a>
+                    <a href="/services" className="btn btn-secondary">EXPLORE WHAT WE DO</a>
                 </div>
             </div>
             
@@ -187,7 +187,7 @@ const Index = () => {
                     <p className="services-intro">We work across three core practice areas, each designed to create measurable value for your organization and the people within it.</p>
                 </div>
                 <div className="services-header-right">
-                    <a href="services.html" className="btn btn-outline">VIEW ALL SERVICES</a>
+                    <a href="/services" className="btn btn-outline">VIEW ALL SERVICES</a>
                 </div>
             </div>
 

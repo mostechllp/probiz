@@ -16,7 +16,7 @@ const Learning = () => {
             <h1>Learning That Goes Beyond the Classroom.</h1>
             <p>Equipping the next generation of leaders through premium experiential learning, simulation programs for the real world of global affairs.</p>
             <div className="el-hero-btns">
-                <a href="contact.html" className="btn btn-primary">Bring Experiential Learning to Your Institution</a>
+                <a href="/contact" className="btn btn-primary">Bring Experiential Learning to Your Institution</a>
                 <a href="#programs" className="btn btn-secondary">Learn More About Our Programs</a>
             </div>
         </div>
@@ -236,7 +236,7 @@ const Learning = () => {
                 </div>
                 
                 <div style={{ display: "flex", gap: "1rem" }}>
-                    <a href="contact.html" style={{ backgroundColor: "var(--color-orange)", color: "#fff", textDecoration: "none", fontWeight: "800", fontSize: "0.9rem", padding: "1rem 2rem", borderRadius: "4px", textTransform: "uppercase", letterSpacing: "0.5px" }}>START YOUR JOURNEY</a>
+                    <a href="/contact" style={{ backgroundColor: "var(--color-orange)", color: "#fff", textDecoration: "none", fontWeight: "800", fontSize: "0.9rem", padding: "1rem 2rem", borderRadius: "4px", textTransform: "uppercase", letterSpacing: "0.5px" }}>START YOUR JOURNEY</a>
                     <a href="#" style={{ backgroundColor: "transparent", border: "1px solid #111", color: "#111", textDecoration: "none", fontWeight: "800", fontSize: "0.9rem", padding: "1rem 2rem", borderRadius: "4px", textTransform: "uppercase", letterSpacing: "0.5px" }}>DOWNLOAD GUIDE</a>
                 </div>
             </div>
@@ -501,7 +501,7 @@ const Learning = () => {
     <section style={{ backgroundColor: "var(--color-orange)", padding: "1.5rem 0" }}>
         <div className="container" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1rem" }}>
             <h4 style={{ color: "#fff", margin: "0", fontFamily: "var(--font-heading)", fontSize: "1.3rem", fontWeight: "500" }}>Ready to host your own MUN?</h4>
-            <a href="contact.html" style={{ backgroundColor: "#fff", color: "var(--color-orange)", padding: "0.7rem 2rem", borderRadius: "4px", fontWeight: "600", textDecoration: "none", transition: "all 0.3s ease", boxShadow: "0 4px 10px rgba(0,0,0,0.1)" }}>Consult Our Experts</a>
+            <a href="/contact" style={{ backgroundColor: "#fff", color: "var(--color-orange)", padding: "0.7rem 2rem", borderRadius: "4px", fontWeight: "600", textDecoration: "none", transition: "all 0.3s ease", boxShadow: "0 4px 10px rgba(0,0,0,0.1)" }}>Consult Our Experts</a>
         </div>
     </section>
 
@@ -692,25 +692,25 @@ const Learning = () => {
                 <div style={{ backgroundColor: "#fff", borderLeft: "3px solid var(--color-orange)", padding: "2rem", borderRadius: "0 4px 4px 0", boxShadow: "0 5px 15px rgba(0,0,0,0.02)", display: "flex", flexDirection: "column" }}>
                     <h5 style={{ fontSize: "1.2rem", color: "#111", marginBottom: "1rem", fontWeight: "700" }}>Debate Club<br />Establishment</h5>
                     <p style={{ fontSize: "0.9rem", color: "#666", marginBottom: "1.5rem", lineHeight: "1.6", flexGrow: "1" }}>A-to-Z setup including curriculum design, trainer onboarding, and membership pipelines.</p>
-                    <a href="contact.html" style={{ color: "var(--color-orange)", fontWeight: "700", fontSize: "0.8rem", textDecoration: "none", letterSpacing: "0.5px", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>LEARN MORE &rarr;</a>
+                    <a href="/contact" style={{ color: "var(--color-orange)", fontWeight: "700", fontSize: "0.8rem", textDecoration: "none", letterSpacing: "0.5px", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>LEARN MORE &rarr;</a>
                 </div>
                 {/*  Solution 2  */}
                 <div style={{ backgroundColor: "#fff", borderLeft: "3px solid var(--color-orange)", padding: "2rem", borderRadius: "0 4px 4px 0", boxShadow: "0 5px 15px rgba(0,0,0,0.02)", display: "flex", flexDirection: "column" }}>
                     <h5 style={{ fontSize: "1.2rem", color: "#111", marginBottom: "1rem", fontWeight: "700" }}>Competition<br />Management</h5>
                     <p style={{ fontSize: "0.9rem", color: "#666", marginBottom: "1.5rem", lineHeight: "1.6", flexGrow: "1" }}>Logical and academic management of debate championships, from motions to brackets.</p>
-                    <a href="contact.html" style={{ color: "var(--color-orange)", fontWeight: "700", fontSize: "0.8rem", textDecoration: "none", letterSpacing: "0.5px", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>LEARN MORE &rarr;</a>
+                    <a href="/contact" style={{ color: "var(--color-orange)", fontWeight: "700", fontSize: "0.8rem", textDecoration: "none", letterSpacing: "0.5px", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>LEARN MORE &rarr;</a>
                 </div>
                 {/*  Solution 3  */}
                 <div style={{ backgroundColor: "#fff", borderLeft: "3px solid var(--color-orange)", padding: "2rem", borderRadius: "0 4px 4px 0", boxShadow: "0 5px 15px rgba(0,0,0,0.02)", display: "flex", flexDirection: "column" }}>
                     <h5 style={{ fontSize: "1.2rem", color: "#111", marginBottom: "1rem", fontWeight: "700" }}>Training<br />Workshops</h5>
                     <p style={{ fontSize: "0.9rem", color: "#666", marginBottom: "1.5rem", lineHeight: "1.6", flexGrow: "1" }}>Intensive bootcamps for delegates and coaches focusing on rhetoric and strategic rebuttals.</p>
-                    <a href="contact.html" style={{ color: "var(--color-orange)", fontWeight: "700", fontSize: "0.8rem", textDecoration: "none", letterSpacing: "0.5px", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>LEARN MORE &rarr;</a>
+                    <a href="/contact" style={{ color: "var(--color-orange)", fontWeight: "700", fontSize: "0.8rem", textDecoration: "none", letterSpacing: "0.5px", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>LEARN MORE &rarr;</a>
                 </div>
                 {/*  Solution 4  */}
                 <div style={{ backgroundColor: "#fff", borderLeft: "3px solid var(--color-orange)", padding: "2rem", borderRadius: "0 4px 4px 0", boxShadow: "0 5px 15px rgba(0,0,0,0.02)", display: "flex", flexDirection: "column" }}>
                     <h5 style={{ fontSize: "1.2rem", color: "#111", marginBottom: "1rem", fontWeight: "700" }}>Expert<br />Adjudication</h5>
                     <p style={{ fontSize: "0.9rem", color: "#666", marginBottom: "1.5rem", lineHeight: "1.6", flexGrow: "1" }}>Highly qualified judges providing constructive feedback to elevate student performance.</p>
-                    <a href="contact.html" style={{ color: "var(--color-orange)", fontWeight: "700", fontSize: "0.8rem", textDecoration: "none", letterSpacing: "0.5px", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>LEARN MORE &rarr;</a>
+                    <a href="/contact" style={{ color: "var(--color-orange)", fontWeight: "700", fontSize: "0.8rem", textDecoration: "none", letterSpacing: "0.5px", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>LEARN MORE &rarr;</a>
                 </div>
             </div>
         </div>
@@ -722,7 +722,7 @@ const Learning = () => {
             <div style={{ backgroundColor: "var(--color-orange)", borderRadius: "0", padding: "4rem 2rem", textAlign: "center", color: "#fff" }}>
                 <h2 style={{ fontFamily: "var(--font-heading)", fontSize: "2.8rem", fontWeight: "800", marginBottom: "1rem" }}>Ready to bring debate to your<br />institution?</h2>
                 <p style={{ fontSize: "1.1rem", maxWidth: "600px", margin: "0 auto 2rem", opacity: "0.9" }}>Empower your students or team with the world's most powerful communication skill. Our experts are ready to design your roadmap.</p>
-                <a href="contact.html" style={{ display: "inline-block", backgroundColor: "#111", color: "#fff", padding: "1rem 2.5rem", borderRadius: "4px", fontWeight: "700", textDecoration: "none", textTransform: "uppercase", letterSpacing: "0.5px", fontSize: "0.9rem" }}>CONSULT OUR EXPERTS</a>
+                <a href="/contact" style={{ display: "inline-block", backgroundColor: "#111", color: "#fff", padding: "1rem 2.5rem", borderRadius: "4px", fontWeight: "700", textDecoration: "none", textTransform: "uppercase", letterSpacing: "0.5px", fontSize: "0.9rem" }}>CONSULT OUR EXPERTS</a>
             </div>
         </div>
     </section>
@@ -931,7 +931,7 @@ const Learning = () => {
                         </div>
                     </div>
                     
-                    <a href="contact.html" style={{ display: "inline-block", backgroundColor: "var(--color-orange)", color: "#fff", padding: "1rem 2.5rem", borderRadius: "6px", fontWeight: "700", textDecoration: "none", fontSize: "1rem", boxShadow: "0 4px 15px rgba(255, 107, 0, 0.3)" }}>Partner with ProBiz Center</a>
+                    <a href="/contact" style={{ display: "inline-block", backgroundColor: "var(--color-orange)", color: "#fff", padding: "1rem 2.5rem", borderRadius: "6px", fontWeight: "700", textDecoration: "none", fontSize: "1rem", boxShadow: "0 4px 15px rgba(255, 107, 0, 0.3)" }}>Partner with ProBiz Center</a>
                 </div>
             </div>
         </div>
