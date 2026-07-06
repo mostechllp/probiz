@@ -49,9 +49,29 @@ const Leaders = () => {
             
             {/*  Rajit Section  */}
             <div id="rajit" className="leader-section">
-                <div className="leader-img-wrapper">
+                <div className="leader-img-wrapper desktop-only">
                     <div className="vertical-text left">FOUNDER & CEO</div>
                     <img src="assets/images/img11.jpeg" alt="Rajit Karunakaran" className="leader-card-img" />
+                    
+                    <div style={{ marginTop: "3rem" }}>
+                        <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "0 0 0.8rem" }}>Key Industries & Geographies Served</h4>
+                        <ul style={{ listStyle: "none", padding: "0", margin: "0 0 1.5rem" }}>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Worked with organizations across Manufacturing, Education, Healthcare, Retail, Technology, Services, Startups, and Public Sector Institutions.</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Extensive consulting and training experience throughout India and the MENA (Middle East & North Africa) region.</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Delivered leadership development, business excellence, and organizational transformation initiatives across GCC countries and India.</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Supported institutions, corporations, entrepreneurs, and educational organizations in achieving strategic objectives.</li>
+                        </ul>
+
+                        <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "1.5rem 0 0.8rem" }}>Signature Accomplishments & Client Outcomes</h4>
+                        <ul style={{ listStyle: "none", padding: "0", margin: "0 0 1.5rem" }}>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Delivered his acclaimed Steve Jobs Leadership Presentation at more than 600 venues across Kerala and the GCC.</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Helped organizations strengthen leadership capability, improve operational performance, and foster innovation-driven cultures.</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Recognized as Regional Mentor of Change under NITI Aayog's Atal Innovation Mission.</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Featured on the prestigious GEMS Mentors List for multiple consecutive years.</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Mentored students, startups, educators, and business leaders to transform ideas into practical, high-impact outcomes.</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Author of three published books on consulting, leadership, ethics, and corporate culture.</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <div className="leader-content">
@@ -74,7 +94,7 @@ const Leaders = () => {
                         <p style={{ fontStyle: "italic", fontSize: "1.1rem", color: "#333", margin: "0", fontWeight: "600" }}>"Aligning people, purpose, and performance."</p>
                     </div>
 
-                    <div className="bio-details" style={{ maxHeight: "500px", overflowY: "auto", paddingRight: "1rem", borderTop: "1px solid #eee" }}>
+                    <div className="bio-details" style={{ paddingRight: "1rem", borderTop: "1px solid #eee" }}>
                         <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "1.5rem 0 0.8rem" }}>Background in Organizational Development & Consulting</h4>
                         <ul style={{ listStyle: "none", padding: "0", margin: "0 0 1.5rem" }}>
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Over 32 years of experience in management consulting, organizational development, and business transformation.</li>
@@ -83,7 +103,11 @@ const Leaders = () => {
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Trusted advisor to organizations seeking to align strategy, people, and processes for long-term success.</li>
                         </ul>
 
-                        <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "1.5rem 0 0.8rem" }}>Key Industries & Geographies Served</h4>
+
+
+                        
+                        <div className="mobile-only">
+                            <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "1.5rem 0 0.8rem" }}>Key Industries & Geographies Served</h4>
                         <ul style={{ listStyle: "none", padding: "0", margin: "0 0 1.5rem" }}>
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Worked with organizations across Manufacturing, Education, Healthcare, Retail, Technology, Services, Startups, and Public Sector Institutions.</li>
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Extensive consulting and training experience throughout India and the MENA (Middle East & North Africa) region.</li>
@@ -100,6 +124,7 @@ const Leaders = () => {
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Mentored students, startups, educators, and business leaders to transform ideas into practical, high-impact outcomes.</li>
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Author of three published books on consulting, leadership, ethics, and corporate culture.</li>
                         </ul>
+                        </div>
 
                         <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "1.5rem 0 0.8rem" }}>Leadership Philosophy</h4>
                         <ul style={{ listStyle: "none", padding: "0", margin: "0 0 1.5rem" }}>
@@ -147,7 +172,7 @@ const Leaders = () => {
                         <p style={{ fontStyle: "italic", fontSize: "1.1rem", margin: "0", fontWeight: "600" }}>"Experiential learning is the pathway to future leadership."</p>
                     </div>
 
-                    <div className="bio-details" style={{ maxHeight: "500px", overflowY: "auto", paddingRight: "1rem", borderTop: "1px solid #eee" }}>
+                    <div className="bio-details" style={{ paddingRight: "1rem", borderTop: "1px solid #eee" }}>
                         <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "1.5rem 0 0.8rem" }}>Background in Organizational Leadership & Experiential Learning</h4>
                         <ul style={{ listStyle: "none", padding: "0", margin: "0 0 1.5rem" }}>
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Chief Operating Officer, ProBiz Knowledge Center</li>
@@ -168,7 +193,11 @@ const Leaders = () => {
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Strong network across IITs, NITs, international academic ecosystems, and Southeast Asia.</li>
                         </ul>
 
-                        <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "1.5rem 0 0.8rem" }}>Signature Accomplishments & Client Outcomes</h4>
+
+
+                        
+                        <div className="mobile-only">
+                            <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "1.5rem 0 0.8rem" }}>Signature Accomplishments & Client Outcomes</h4>
                         <ul style={{ listStyle: "none", padding: "0", margin: "0 0 1.5rem" }}>
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Founder and CEO of the International Matrix Foundation</li>
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Executive Board member for 60+ Model United Nations conferences.</li>
@@ -187,6 +216,7 @@ const Leaders = () => {
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Encourages youth empowerment through diplomacy and leadership opportunities</li>
                             <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Advocates excellence, accountability, and continuous learning</li>
                         </ul>
+                        </div>
 
                         <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "1.5rem 0 0.8rem" }}>Educational Credentials & Professional Recognition</h4>
                         <ul style={{ listStyle: "none", padding: "0", margin: "0 0 1.5rem" }}>
@@ -202,9 +232,31 @@ const Leaders = () => {
                     </div>
                 </div>
 
-                <div className="leader-img-wrapper">
+                <div className="leader-img-wrapper desktop-only">
                     <div className="vertical-text right">CHIEF OPERATING OFFICER</div>
                     <img src="assets/images/img12.PNG" alt="Abhav R Nair" className="leader-card-img" />
+
+                    <div style={{ marginTop: "3rem" }}>
+                        <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "0 0 0.8rem" }}>Signature Accomplishments & Client Outcomes</h4>
+                        <ul style={{ listStyle: "none", padding: "0", margin: "0 0 1.5rem" }}>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Founder and CEO of the International Matrix Foundation</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Executive Board member for 60+ Model United Nations conferences.</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Served at premier institutions including IIT Bombay, IIT Kharagpur, IIT Roorkee, IIT Indore, IIIT Guwahati, NIT Rourkela, NIT Agartala, NMIMS, and KIIT</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Secretary-General of Rajadhani MUN 2025, Kerala's first internationally integrated MUN conference</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Ambassador for India at International Diplomats UAE.</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Helped institutions establish and strengthen MUN and experiential learning programs</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Enabled thousands of students to develop leadership, diplomacy, negotiation, and public-speaking skills</li>
+                        </ul>
+
+                        <h4 style={{ fontSize: "0.8rem", color: "var(--color-orange)", textTransform: "uppercase", letterSpacing: "1px", fontWeight: "700", margin: "1.5rem 0 0.8rem" }}>Leadership Philosophy</h4>
+                        <ul style={{ listStyle: "none", padding: "0", margin: "0 0 1.5rem" }}>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Believes in learning through experience and practical engagement</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Focuses on developing future-ready leaders with global perspectives</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Promotes collaboration, innovation, and strategic thinking</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Encourages youth empowerment through diplomacy and leadership opportunities</li>
+                            <li style={{ fontSize: "0.9rem", color: "#555", marginBottom: "0.6rem", paddingLeft: "1.2rem", position: "relative", lineHeight: "1.5" }}><span style={{ color: "var(--color-orange)", position: "absolute", left: "0" }}>▪</span> Advocates excellence, accountability, and continuous learning</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -273,7 +325,17 @@ const Leaders = () => {
         .navbar:not(.scrolled) .nav-logo-img { filter: none !important; height: 60px !important; }
         .navbar:not(.scrolled) .mobile-toggle svg { stroke: var(--color-black) !important; }
         
+        .mobile-only {
+            display: none;
+        }
+
         @media (max-width: 992px) {
+            .desktop-only {
+                display: none !important;
+            }
+            .mobile-only {
+                display: block;
+            }
             .nav-links {
                 background-color: #fff;
                 border-top: 1px solid #eee;
@@ -316,8 +378,8 @@ const Leaders = () => {
 
         .vertical-text {
             position: absolute;
-            top: 50%;
-            transform: translateY(-50%) rotate(180deg);
+            top: 0;
+            transform: rotate(180deg);
             writing-mode: vertical-rl;
             font-family: var(--font-heading);
             font-size: 3rem;
@@ -332,7 +394,7 @@ const Leaders = () => {
         }
         .vertical-text.right {
             right: -4rem;
-            transform: translateY(-50%) rotate(0deg);
+            transform: rotate(0deg);
         }
 
         .leader-img-wrapper {
@@ -352,12 +414,12 @@ const Leaders = () => {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
-            align-items: center;
+            align-items: flex-start;
             margin-bottom: 8rem;
         }
 
         .leader-content {
-            padding: 2rem 0;
+            padding: 0 0 2rem;
         }
 
         .accomplishment-item {
@@ -405,7 +467,7 @@ const Leaders = () => {
             text-align: center;
             position: absolute;
             right: 5%;
-            top: 50%;
+            top: 0;
             transform: translateY(-50%);
             width: 400px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
