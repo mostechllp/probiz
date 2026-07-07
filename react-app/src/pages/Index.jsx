@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import SplitText from '../components/SplitText';
 import CircularText from '../components/CircularText';
 import TextType from '../components/TextType';
@@ -47,6 +47,17 @@ const serviceCards = [
 ];
 
 const Index = () => {
+    useEffect(() => {
+        document.title = "ProBiz Knowledge Center | International Business Consulting and Organizational Development";
+        let metaDescription = document.querySelector('meta[name="description"]');
+        if (!metaDescription) {
+            metaDescription = document.createElement('meta');
+            metaDescription.name = "description";
+            document.head.appendChild(metaDescription);
+        }
+        metaDescription.content = "ProBiz Knowledge Center is one the leading business consulting and organizational development firms in India. We partner with enterprises to design agile systems, build high-performance teams and achieve lasting results.";
+    }, []);
+
     return (
         <>
             
