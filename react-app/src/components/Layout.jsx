@@ -25,8 +25,16 @@ const Layout = () => {
     // Close mobile menu when route changes
     useEffect(() => {
         setIsMobileOpen(false);
-        window.scrollTo(0, 0);
-    }, [location.pathname]);
+        if (location.hash) {
+            const id = location.hash.replace('#', '');
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView();
+            }
+        } else {
+            window.scrollTo(0, 0);
+        }
+    }, [location.pathname, location.hash]);
 
     return (
         <>
@@ -81,7 +89,7 @@ const Layout = () => {
                                 <li><Link to="/join">Join Us</Link></li>
                                 <li><Link to="/contact">Contact Us</Link></li>
                                 <li><Link to="/white-paper">White Papers</Link></li>
-                                <li><Link to="#">Case Studies</Link></li>
+                                <li><Link to="/learning#simulations">Case Studies</Link></li>
                             </ul>
                         </div>
                         
