@@ -29,7 +29,7 @@ const Learning = () => {
         // You will need to replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', and 'YOUR_PUBLIC_KEY'
         // with the actual values from your EmailJS account.
         const templateParams = {
-            to_email: 'coo@probizindia.in',
+            to_email: 'abhav@probizindia.in',
             from_name: guideForm.name,
             from_email: guideForm.email,
         };
