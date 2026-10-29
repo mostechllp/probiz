@@ -88,6 +88,7 @@ const Leaders = () => {
                         <div>
                             <h5 style={{ fontSize: "0.7rem", textTransform: "uppercase", fontWeight: "800", letterSpacing: "0.5px", marginBottom: "0.3rem" }}>YEARS OF IMPACT</h5>
                             <p style={{ fontSize: "0.8rem", color: "#666", margin: "0" }}>Global consulting and strategic transformation experience.</p>
+                            <p style={{ fontSize: "0.8rem", margin: "0", marginTop: "0.5rem", pointerEvents: "auto" }}><a href="mailto:rajit@probizindia.in" style={{ position: "relative", zIndex: "10", color: "var(--color-orange)", textDecoration: "none", fontWeight: "700" }}>rajit@probizindia.in</a></p>
                         </div>
                     </div>
 

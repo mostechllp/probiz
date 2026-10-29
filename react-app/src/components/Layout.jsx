@@ -102,7 +102,7 @@ const Layout = () => {
                     </div>
                     
                     <div className="footer-bottom">
-                        <p>&copy; 2026 ProBiz Knowledge Center. All rights reserved.</p>
+                        <p>&copy; All Rights Reserved | Developed by <a href="https://mostech.ae/" style={{ color: 'var(--color-orange)', textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">Mostech Business Solutions</a></p>
                     </div>
                 </div>
             </footer>
